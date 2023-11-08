@@ -3,7 +3,7 @@ Exercise 1: Guess the number
 Exercise 2: Multiplication table
 Exercise 3: Basic calculator
 """
-hola
+
 import random
 
 def guess_the_number():
@@ -17,11 +17,11 @@ def guess_the_number():
 
 
 def multiplication_table():
-  """
-    Using a while/for loops, implement a multiplication table.
-  """
-  # fix code
-  print("multiplication_table for {number}")
+  num = random.choice([1,2,3,4,5,6,7,8,9])
+  for i in range(1,11):
+    tbl = num*i
+    print(f"{i} x {num} = {tbl}")
+
 
 
 def basic_calculator():
