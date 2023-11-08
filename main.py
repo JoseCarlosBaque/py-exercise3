@@ -3,7 +3,7 @@ Exercise 1: Guess the number
 Exercise 2: Multiplication table
 Exercise 3: Basic calculator
 """
-pito
+
 import random
 
 def guess_the_number():
