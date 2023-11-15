@@ -25,6 +25,8 @@ def multiplication_table():
   for i in range(1,11):
     tbl = num*i
     print(f"{i} x {num} = {tbl}")
+  
+  print("hola")
 
 
 
