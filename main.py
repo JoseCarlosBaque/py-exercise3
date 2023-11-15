@@ -7,12 +7,9 @@ Exercise 3: Basic calculator
 import random
 
 def guess_the_number():
-  """
-    Using loops, implement a guessing game.
-    Guess the number (1-10):
-    messages: Too low, Too high, Try again, Congratulations!
-  """
-  # fix code
+  num = random.choice([1,2,3,4,5,6,7,8,9])
+  while num != res:
+    numero = input("Por favor, ingresa un número: ")
   print("Guess the number (1-10):")
 
 
