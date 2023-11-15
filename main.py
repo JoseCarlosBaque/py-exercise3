@@ -8,9 +8,16 @@ import random
 
 def guess_the_number():
   num = random.choice([1,2,3,4,5,6,7,8,9])
-  while num != res:
-    numero = input("Por favor, ingresa un número: ")
-  print("Guess the number (1-10):")
+  res= 0
+  print (num)
+  while res != num:
+    print("Guess the number (1-9):")
+    print("Por favor, ingresa un número: ")
+    res = input()
+    res = int(res)
+  
+  print(f"El numero es {num}")
+  
 
 
 def multiplication_table():
