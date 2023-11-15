@@ -42,10 +42,19 @@ def guess_the_number():
 
 
 def multiplication_table():
-  num = random.choice([1,2,3,4,5,6,7,8,9])
-  for i in range(1,11):
-    tbl = num*i
-    print(f"{i} x {num} = {tbl}")
+  i = 1;
+  num = 0;
+  res = 0;
+  print("Dime de que numero quieres la tabla de multiplicar")
+  num = input();
+  num = int(num);
+  while i != 11:
+    res = num * i;
+    print(f"{num} x {i} = {res}");
+    i += 1;
+    
+
+
 
 
 
