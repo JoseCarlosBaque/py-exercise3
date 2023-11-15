@@ -18,6 +18,27 @@ def guess_the_number():
   
   print(f"El numero es {num}")
   
+  """
+    Using loops, implement a guessing game.
+    Guess the number (1-10):
+    messages: Too low, Too high, Try again, Congratulations!
+  """
+  # fix code
+  # num = 0;
+  # numero = random.randint(0, 10);
+  # while num != numero:
+  #   print("Guess the number (1-10):");
+  #   num = input();
+  #   num = int(num)
+  #   if num < numero:
+  #     print("Too low");
+  #   elif num > numero:
+  #     print("Too high");
+  #   elif num == numero:
+  #     print("Congratulations!");
+  #   else:
+  #     print("Try again");
+      
 
 
 def multiplication_table():
